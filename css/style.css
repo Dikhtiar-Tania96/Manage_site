@@ -24,7 +24,9 @@ body{
 .button-style{
 background-color: var(--green-button);
 cursor: pointer;
-padding: 10px;
+padding: 20px;
+font-size: 18px;
+border: none;
 }
 
 .button-style:hover{
@@ -47,13 +49,13 @@ padding: 10px;
 .hero-section{
     background-image: linear-gradient(
         to right,
-        rgba(122, 123, 125, 0.4),
+        rgba(226, 229, 235, 0.4),
         rgba(210, 211, 220, 0.4)
       ),
       url(../image/BG.jpg);
     background-position: center;
     height: 800px;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
 }
 
 .section-nav{
@@ -61,12 +63,13 @@ padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 24px;
 }
 
 .logo{
     color: var(--green-button);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 .logo:hover{
@@ -110,4 +113,23 @@ cursor: pointer;
 .footer-el-nav:hover{
     cursor: pointer;
     text-decoration: underline;
+    color: var(--green-button);
+}
+
+.hero-title{
+    color: var(--green-button);
+    font-size: 65px;
+    margin: 0;
+}
+
+.hero-style{
+    width: 500px;
+    padding-top: 175px;
+}
+
+.hero-text{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 18px;
 }
