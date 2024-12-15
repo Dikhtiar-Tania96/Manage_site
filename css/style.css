@@ -24,6 +24,7 @@ body{
 .button-style{
 background-color: var(--green-button);
 cursor: pointer;
+padding: 10px;
 }
 
 .button-style:hover{
@@ -71,5 +72,11 @@ cursor: pointer;
 .logo:hover{
     text-decoration: underline;
     color: var(--color-text-hover);
-    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav-list:hover{
+text-decoration: underline;
+color: var(--color-text-hover);
+cursor: pointer;
 }
