@@ -1,8 +1,75 @@
+:root{
+    --green-button: #01996D;
+    --bg-white: #FFFFFF;
+    --bg-grey: #E5E5E5;
+    --bg-green: #245852;
+    --color-text-hover: #094710;
+
+}
+
+
 body{
     background-color: rgb(255, 255, 255);
+    font-family: Lato;
 }
 
 .container{
-    width: 1400px;
-    
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.button-style{
+background-color: var(--green-button);
+cursor: pointer;
+}
+
+.button-style:hover{
+    background-color: var(--bg-green);
+    color: white;
+}
+
+.header-section{
+    background-color: var(--bg-white);
+}
+
+.main-section{
+    background-color: var(--bg-grey);
+}
+
+.section-color{
+    background-color: var(--bg-green);
+}
+
+.hero-section{
+    background-image: linear-gradient(
+        to right,
+        rgba(122, 123, 125, 0.4),
+        rgba(210, 211, 220, 0.4)
+      ),
+      url(../image/BG.jpg);
+    background-position: center;
+    height: 800px;
+    background-repeat:no-repeat
+}
+
+.section-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    color: var(--green-button);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo:hover{
+    text-decoration: underline;
+    color: var(--color-text-hover);
+    font-weight: 900;
 }
