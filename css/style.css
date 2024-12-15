@@ -80,3 +80,34 @@ text-decoration: underline;
 color: var(--color-text-hover);
 cursor: pointer;
 }
+
+.footer-list{
+    list-style: none;
+    color: var(--bg-white);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    width: 200px;
+}
+
+
+.footer-el{
+    margin-top: 70px;
+}
+
+.footer-el:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-el-nav{
+    color: var(--bg-white);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer-el-nav:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
