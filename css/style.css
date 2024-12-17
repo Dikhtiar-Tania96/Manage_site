@@ -1,15 +1,17 @@
 :root{
     --green-button: #01996D;
     --bg-white: #FFFFFF;
-    --bg-grey: #E5E5E5;
+    --bg-grey: #f6f0f0;
     --bg-green: #245852;
     --color-text-hover: #094710;
+    --text-color: #424242;
+    --black-color: #000000;
 
 }
 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-grey);
     font-family: Lato;
 }
 
@@ -35,7 +37,8 @@ border: none;
 }
 
 .header-section{
-    background-color: var(--bg-white);
+    /* background-color: var(--bg-white); */
+    border: 3px solid var(--bg-white);
 }
 
 .main-section{
@@ -44,6 +47,7 @@ border: none;
 
 .section-color{
     background-color: var(--bg-green);
+    padding: 100px;
 }
 
 .hero-section{
@@ -132,4 +136,88 @@ cursor: pointer;
     margin: 0;
     padding-top: 30px;
     padding-bottom: 18px;
+}
+
+.section-work{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 117px;
+    margin-bottom: 52px;
+}
+
+.section-work-title{
+    width: 600px;
+    font-size: 20px;
+}
+
+.work-title{
+    font-size: 24px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.heading-work{
+    color: var(--green-button);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.section-list{
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+    text-align: center;
+}
+
+.list-elem{
+    width: 392px;
+    margin-right: 20px;
+}
+
+
+
+.caption-list{
+    font-size: 150px;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.subtitle-list{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black-color);
+    margin: 0;
+}
+
+.small-list{
+    font-size: 20px;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.photo-elem{
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.color-title{
+    color: var(--bg-white);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.flex-color{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-elem{
+    margin-top: 60px;
+}
+
+.content-color{
+    font-size: 25px;
+    color: var(--bg-white);
 }
